@@ -50,12 +50,12 @@ class CfgVehicles
 		heatIsolation = 0.60000002;
 		attachments[] =
 		{
-			"Melee",
-			"Screwdriver",
-			"Hatchet",
-			"PetrolLighter",
-			"Compass",
-			"CanOpener"
+			"MeleeSlot",
+			"ScrewdriverSlot",
+			"HatchetSlot",
+			"PetrolLighterSlot",
+			"CompassSlot",
+			"CanOpenerSlot"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -79,28 +79,28 @@ class CfgMagazines
 	{
 		inventorySlot[] +=
 		{
-			"CanOpener"
+			"CanOpenerSlot"
 		};
 	};
 	class Screwdriver : Inventory_Base
 	{
 		inventorySlot[] +=
 		{
-			"Screwdriver"
+			"ScrewdriverSlot"
 		};
 	};
 	class PetrolLighter : Inventory_Base
 	{
 		inventorySlot[] +=
 		{
-			"PetrolLighter"
+			"PetrolLighterSlot"
 		};
 	};
 	class Matchbox : Inventory_Base
 	{
 		inventorySlot[] +=
 		{
-			"PetrolLighter"
+			"PetrolLighterSlot"
 		};
 	};
 	class ItemCompass;
@@ -108,14 +108,14 @@ class CfgMagazines
 	{
 		inventorySlot[] +=
 		{
-			"Compass"
+			"CompassSlot"
 		};
 	};
 	class Hatchet : Inventory_Base
 	{
 		inventorySlot[] +=
 		{
-			"Hatchet"
+			"HatchetSlot"
 		};
 	};
 };
