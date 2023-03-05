@@ -50,12 +50,12 @@ class CfgVehicles
 		heatIsolation = 0.60000002;
 		attachments[] =
 		{
-			"MeleeSlot",
-			"ScrewdriverSlot",
-			"HatchetSlot",
-			"PetrolLighterSlot",
-			"CompassSlot",
-			"CanOpenerSlot"
+			"Melee",
+			"Screwdriver_Slot",
+			"Hatchet_Slot",
+			"PetrolLighter_Slot",
+			"Compass_Slot",
+			"CanOpener_Slot"
 		};
 		hiddenSelections[] =
 		{
