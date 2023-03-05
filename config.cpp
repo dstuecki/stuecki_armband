@@ -48,44 +48,28 @@ class CfgVehicles
 		quickBarBonus = 1;
 		varWetMax = 1;
 		heatIsolation = 0.60000002;
+		hiddenSelectionsTextures[] =
+		{
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa",
+			"stuecki_armbands\data\AT_co.paa"
+		};
 		attachments[] =
 		{
 			"Melee",
-			"Screwdriver_Slot",
-			"Hatchet_Slot",
-			"PetrolLighter_Slot",
-			"Compass_Slot",
-			"CanOpener_Slot"
+			"ScrewdriverSlot",
+			"HatchetSlot",
+			"PetrolLighterSlot",
+			"CompassSlot",
+			"CanOpenerSlot"
 		};
-		hiddenSelections[] =
-		{
-			"camoGround",
-			"camoFemale_big_a",
-			"camoFemale_big_b",
-			"camoFemale_small_a",
-			"camoFemale_small_b",
-			"camoMale_big_a",
-			"camoMale_big_b",
-			"camoMale_small_a",
-			"camoMale_small_b"
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa",
-			"\stuecki_armbands\data\AT_co.paa"
-		};
-
 	}
-};
-class CfgMagazines
-{
 	class Inventory_Base;
 	class CanOpener : Inventory_Base
 	{
@@ -135,32 +119,32 @@ class CfgSlots
 {
 	class CanOpener_Slot
 	{
-		name = "CanOpener";
+		name = "CanOpenerSlot";
 		displayName = "CanOpener";
-		ghostIcon = "missing";
+		ghostIcon = "canteen";
 	};
 	class Screwdriver_Slot
 	{
-		name = "Screwdriver";
+		name = "ScrewdriverSlot";
 		displayName = "Screwdriver";
-		ghostIcon = "missing";
+		ghostIcon = "canteen";
 	};
 	class PetrolLighter_Slot
 	{
-		name = "PetrolLighter";
+		name = "PetrolLighterSlot";
 		displayName = "PetrolLighter";
-		ghostIcon = "missing";
+		ghostIcon = "canteen";
 	};
 	class Compass_Slot
 	{
-		name = "Compass";
+		name = "CompassSlot";
 		displayName = "Compass";
-		ghostIcon = "missing";
+		ghostIcon = "canteen";
 	};
 	class Hatchet_Slot
 	{
-		name = "Hatchet";
+		name = "HatchetSlot";
 		displayName = "Hatchet";
-		ghostIcon = "missing";
+		ghostIcon = "canteen";
 	};
 }
