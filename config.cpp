@@ -57,6 +57,18 @@ class CfgVehicles
 			"CompassSlot",
 			"CanOpenerSlot"
 		};
+		hiddenSelections[] =
+		{
+			"camoGround",
+			"camoFemale_big_a",
+			"camoFemale_big_b",
+			"camoFemale_small_a",
+			"camoFemale_small_b",
+			"camoMale_big_a",
+			"camoMale_big_b",
+			"camoMale_small_a",
+			"camoMale_small_b"
+		};
 		hiddenSelectionsTextures[] =
 		{
 			"\stuecki_armbands\data\AT_co.paa",
